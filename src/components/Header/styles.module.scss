@@ -1,0 +1,71 @@
+.HeaderBox {
+    background-color: var(--grey-0);
+
+    .header_container {
+        display: flex;
+        justify-content: space-around;
+        padding: 0.9375rem;
+        width: 100%;
+        gap: 8.125rem;
+
+        
+    @media (max-width:1024px) {
+        justify-content: space-between;
+    }
+
+        .div_second {
+            flex-direction: row;
+        }
+
+        .button_span {
+           position: relative;
+            height: 1.5625rem;
+            font-size: 1.375rem;
+            font-weight: 900;
+           
+
+            color: var(--grey-300);
+            background-color: transparent;
+            border: none;
+
+            span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: -25%;
+                right: -84%;
+                background: var(--color-primary);
+                color:var(--grey-0) ;
+                border-radius: 0.4375rem;
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+    }
+
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+
+        button {
+            border: none;
+            background-color: transparent;
+        }
+    }
+
+    input {
+        width: 80%;
+        height: 1.875rem;
+
+        margin: 1.25rem 0px;
+
+        border: none;
+        border-radius: 0.625rem;
+    }
+
+}
+

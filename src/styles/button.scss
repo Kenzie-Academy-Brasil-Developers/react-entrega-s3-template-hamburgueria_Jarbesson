@@ -1,0 +1,19 @@
+.btn{
+    font-family: var( --font-family);
+
+    display: inline-flex;
+    height: 2.5rem;
+    padding: 0px 1.25rem;
+    justify-content: center;
+    align-items: center;
+    
+
+    background-color: var( --grey-300);
+    color: var( --grey-0);
+    border: none;
+    border-radius: 0.5rem;
+
+    &:hover{
+        background-color: var(--color-primary);
+    }
+}

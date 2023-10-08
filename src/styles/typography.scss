@@ -1,8 +1,44 @@
-.title{
-    font-family: var(--font-family);
-    color: var(--grey-600);
+.Heading1 {
+    font-family: var(font-family);
+    color: var(--gray-600);
 
     font-size: 1.625rem;
     font-style: normal;
     font-weight: 700;
+
+
+    &.Heading2 {
+        font-size: 1.375rem;
+    }
+
+    &.Heading3 {
+        font-size: 1.125rem;
+    }
+
+    &.Headline {
+        color: var(--gray-300);
+        font-size: 0.9375rem;
+        font-weight: 400;
+    }
+
+}
+
+
+.Body{
+    font-family: var(--font-family);
+    color: var(--gray-300);
+    font-size: 0.875rem;
+    font-weight: 400;
+
+    &.Body-600{
+    font-weight: 600;
+    color: var( --color-primary);
+}
+}
+
+.Caption{
+    font-family: var(--font-family);
+    color:var( --grey-300);
+    font-size: 0.75rem;
+    font-weight: 400;  
 }

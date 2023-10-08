@@ -9,3 +9,14 @@
     --grey-100:#E0E0E0;
     --grey-0:#F5F5F5;
 }
+
+.container {
+    max-width: 1368px;
+    width: 100%;
+    padding: clamp(1.25rem, 5vw, 2rem);
+    margin: 0 auto;
+}
+
+.padding{
+    padding: 1.25rem;
+}

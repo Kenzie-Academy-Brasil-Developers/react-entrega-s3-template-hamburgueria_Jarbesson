@@ -1,0 +1,43 @@
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+
+    &:hover {
+        border: 2px solid var(--color-primary);
+    }
+
+    &:focus {
+        border: 2px solid var(--color-primary);
+    }
+
+    img {
+
+        justify-content: center;
+        width: 82.259px;
+        height: 5rem;
+        object-fit: contain;
+        background-color: var(--grey-0);
+    }
+
+    .div_first {
+        display: flex;
+
+        h3 {
+            margin: 0.625rem 1.25rem;
+        }
+
+        p {
+            margin: 0.625rem 1.25rem;
+        }
+
+    }
+
+    button {
+        align-self: center;
+        background: transparent;
+        border: none;
+        color: var(--grey-100);
+    }
+}

@@ -1,0 +1,15 @@
+.listCard{
+    display: flex;
+    overflow-x: auto;
+    margin: 1.75rem 1rem;
+    gap: 1.25rem;
+    
+
+    @media (min-width:1024px) {
+        justify-content: center;
+            overflow-x: hidden;
+            flex-wrap: wrap;
+            gap: 3.375rem;
+         
+    }
+}
